@@ -1,6 +1,6 @@
 "use client";
 
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import {
   slideInFromLeft,
@@ -12,6 +12,14 @@ import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
 
 const HeroContent = () => {
+  const [mounted, setMounted] = useState(false);
+
+  useEffect(() => {
+    setMounted(true);
+  }, []);
+
+  if (!mounted) return null; // Menghindari hydration error
+
   return (
     <motion.div
       initial="hidden"
@@ -27,7 +35,7 @@ const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] mr-[8px] md:mr-[10px] h-4 w-4 md:h-5 md:w-5 inline-block" />
           <h1 className="orbitron Welcome-text text-[12px] md:text-[13px] inline-block">
-            "Pioneer of the Cosmic Horizon"
+            &quot;Pioneer of the Cosmic Horizon&quot;
           </h1>
         </motion.div>
 
