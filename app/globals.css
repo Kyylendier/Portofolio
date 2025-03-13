@@ -1,12 +1,25 @@
 @import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Exo+2:wght@300;400;700&family=Cedarville+Cursive&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+.orbitron {
+  font-family: 'Orbitron', orbitron;
+}
 
+/* Class untuk Exo 2 */
+.exo2 {
+  font-family: 'Exo 2', exo2;
+}
 
 .cursive {
   font-family: "Cedarville Cursive", cursive;
+}
+
+.realistica {
+  font-family: "", cursive;
 }
 .Welcome-text {
   background: linear-gradient(
