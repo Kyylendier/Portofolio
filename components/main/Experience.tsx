@@ -32,12 +32,12 @@ const Experience = () => {
     {
       title: "SDN ",
       description:
-        "Saya bersekolah di SMKN 4 Bandung dengan jurusan Rekayasa Perangkat Lunak (RPL).",
+        "-",
     },
     {
       title: "SMP Sebelas Maret",
       description:
-        "Mengikuti kursus online tentang pengembangan web dan ilmu komputer.",
+        "-",
     },
     {
       title: "SMKN 4 Bandung",

@@ -68,9 +68,9 @@ const HeroContent = () => {
           className="exo2 text-sm sm:text-base md:text-lg text-gray-400 my-4 md:my-5 max-w-[600px] mx-auto md:mx-auto lg:mx-0"
         >
           &apos;Saya adalah siswa RPL SMKN 4 Bandung yang sedang belajar
-          pemrograman. Saya punya pengalaman dasar di front-end development dan
-          API testing, dan saat ini sedang tertarik untuk mendalami backend
-          development. Saya selalu semangat belajar hal baru dan ingin terus
+          pemrograman. Saya punya pengalaman dasar di front-end dan API testing,
+          dan saat ini sedang memiliki minat untuk mengembangkan skill saya di
+          bagian backend. Saya selalu semangat belajar hal baru dan ingin terus
           berkembang!
         </motion.p>
 
